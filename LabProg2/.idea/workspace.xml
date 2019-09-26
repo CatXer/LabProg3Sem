@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22153765-a23a-4fd2-9b03-be69cdf4f607" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../LabProg4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabProg4/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabProg4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabProg4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabProg4/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabProg4/LabProg4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabProg4/src/serg/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LabProg2/META-INF/LabProg2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LabProg2/serg/_2_2/DataBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LabProg2/serg/_2_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LabProg2/serg/_2_2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serg/_2_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serg/_2_2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serg/_2_2/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serg/_2_2/Pair.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="CatXer &lt;jsergey01@mail.ru&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1QtJT3NVJT4tvYCX0gD1PFdAR7E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="serg._2_1.Main" />
+      <module name="LabProg2" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serg._2_2.Main" />
+      <module name="LabProg2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serg._2_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22153765-a23a-4fd2-9b03-be69cdf4f607" name="Default Changelist" comment="" />
+      <created>1568583963177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568583963177</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Lab2_2">
+      <created>1569444903347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569444903348</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lab2_2 fix//">
+      <created>1569445036145</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569445036145</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab2_2" />
+    <MESSAGE value="Lab2_2 fix//" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab2_2 fix//" />
+  </component>
+</project>
