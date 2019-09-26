@@ -77,6 +77,8 @@ public class Storage {
                     writer.write(p.getRawMat() + "," + p.getPollution() + "\n");
                 }
                 writer.close();
+            } else {
+                System.out.println("error create file");
             }
         } catch (IOException e) {
             System.out.println("Error while saving changes !!!");
@@ -87,8 +89,8 @@ public class Storage {
         return sourceList;
     }
 
-    public List<Pair> getExcessPollutionList(int maxAllowPollution) {
-        ArrayList<Pair> excessPollutionList = new ArrayList<>();
+    public List<Pair> getExcessPollutionList(double maxAllowPollution) {
+        List<Pair> excessPollutionList = new ArrayList<>();
         for (Pair p : sourceList) {
             if (p.getPollution() > maxAllowPollution) {
                 excessPollutionList.add(p);
@@ -97,8 +99,8 @@ public class Storage {
         return excessPollutionList;
     }
 
-    public int getMiddlePollution() {
-        int middlePollution = 0;
+    public double getMiddlePollution() {
+        double middlePollution = 0;
         for (Pair p : sourceList) {
             middlePollution += p.getPollution();
         }
@@ -179,6 +181,5 @@ public class Storage {
 
         System.out.println(table);
     }
-
 
 }

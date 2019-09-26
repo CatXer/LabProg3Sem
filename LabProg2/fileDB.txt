@@ -1,6 +1,11 @@
 test1,22
 test2,39
 test3, 50
-testdwdwdwdwdwdwdwd,60
+Any,60
 test4, 66
 test5,  90
+test6,  47.5
+test7,  3.6
+test8,  47.35
+test9,  69.5
+test10,  73

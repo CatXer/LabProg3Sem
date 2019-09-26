@@ -11,7 +11,7 @@ public class Main {
         Storage storage = new Storage("fileDB.txt");
         System.out.println("Source Data Table:");
         storage.printTable(storage.getSourceList());
-        int middlePollution = storage.getMiddlePollution();
+        double middlePollution = storage.getMiddlePollution();
         List<Pair> excessPollutionList = storage.getExcessPollutionList(middlePollution);
         System.out.println("Excess Pollution Data Table:");
         storage.printTable(excessPollutionList);
