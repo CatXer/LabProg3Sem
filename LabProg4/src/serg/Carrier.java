@@ -2,15 +2,15 @@ package serg;
 
 public class Carrier {
     private String type;
-    private String title;
+    private String name;
     private int id;
     private String trackId;
     private double volume;
     private boolean global;
 
-    public Carrier(String type, String title, int id, String trackId, double volume, boolean global) {
+    public Carrier(int id, String type, String name, String trackId, double volume, boolean global) {
         this.type = type;
-        this.title = title;
+        this.name = name;
         this.id = id;
         this.trackId = trackId;
         this.volume = volume;
@@ -21,8 +21,8 @@ public class Carrier {
         return type;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
     public int getId() {
