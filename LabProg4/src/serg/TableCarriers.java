@@ -6,9 +6,12 @@ package serg;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableCellRenderer;
+import javax.swing.table.TableModel;
+import javax.swing.table.TableRowSorter;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
+import java.util.List;
 
 public class TableCarriers extends JFrame {
     // Модель данных таблицы
@@ -84,6 +87,19 @@ public class TableCarriers extends JFrame {
                 }
             }
         };
+        table1.setAutoCreateRowSorter(true);
+
+
+        TableRowSorter<TableModel> sorter = new TableRowSorter<>(table1.getModel());
+        table1.setRowSorter(sorter);
+        List<RowSorter.SortKey> sortKeys = new ArrayList<>();
+
+        int columnIndexToSort = 1;
+        sortKeys.add(new RowSorter.SortKey(columnIndexToSort, SortOrder.ASCENDING));
+
+        sorter.setSortKeys(sortKeys);
+        sorter.sort();
+
 
         // Создание кнопки добавления строки таблицы
         JButton add = new JButton("Добавить");
@@ -147,16 +163,14 @@ public class TableCarriers extends JFrame {
         tfVolume = new
 
                 JTextField(8);
-        tfVolume.addKeyListener(new
-
-                                        KeyAdapter() {
-                                            public void keyTyped(KeyEvent e) {
-                                                char c = e.getKeyChar();
-                                                if (((c < '0') || (c > '9')) && (c != KeyEvent.VK_BACK_SPACE)) {
-                                                    e.consume(); // consume non-numbers
-                                                }
-                                            }
-                                        });
+        tfVolume.addKeyListener(new KeyAdapter() {
+            public void keyTyped(KeyEvent e) {
+                char c = e.getKeyChar();
+                if (((c < '0') || (c > '9')) && (c != KeyEvent.VK_BACK_SPACE)) {
+                    e.consume(); // consume non-numbers
+                }
+            }
+        });
         chGlobal = new
 
                 JCheckBox();
